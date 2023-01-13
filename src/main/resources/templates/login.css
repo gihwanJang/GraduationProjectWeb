@@ -1,0 +1,105 @@
+main {
+	width: 70%;
+	margin: 40px auto;
+	border: 1px solid #ddd;
+	border-radius: 15px;
+	padding-bottom: 40px;
+}
+
+.login_box {
+	margin: 0px auto;
+	text-align: center;
+	padding: 30px;
+}
+
+.bm_img {
+	width: 50%;
+}
+
+.login_box .input_aera {
+	margin: 10px auto;
+	width: 80%;
+}
+
+.login_box input {
+	margin: 3px auto;
+	width: 100%;
+	height: 40px;
+	padding: 0 2%;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+}
+
+.login_box .login_btn,
+#login_btn  {
+	background: #2e478e;
+	width: 80%;
+	height: 45px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.login_box .box {
+	display: flex;
+	justify-content: space-between; 
+	width: 80%;
+	margin: 10px auto 40px auto;
+}
+
+.login_box .box i {
+	font-size: 2rem;
+	color: #999999;
+}
+
+input[type="checkbox"]:checked ~ i{
+	color: #2e478e;
+}
+
+
+.join {
+	margin-top: 20px;
+}
+.join a {
+	color: #2e478e;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+@media ( max-width :1023px) {
+	main {
+		width: 90%;
+	}
+}
+
+@media ( max-width : 767px ) {
+	html {
+		font-size: 58%;
+	}
+	
+	main {
+		width: 99%;
+	}
+	
+	.login_box .input_aera {
+		width: 90%;
+	}
+	
+	.login_box .login_btn {
+		width: 90%;
+	}
+	
+	.login_box .box {
+		width: 90%;
+		margin: 10px auto;
+	}
+	
+}
+
+@media (max-width: 480px) {
+	html {
+		font-size: 58%;
+	}
+	
+}
